@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="styles_sw.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personajes de Star Wars</h1>
+        <div class="form-group">
+            <label for="character-id">ID del Personaje:</label>
+            <input type="number" id="character-id" min="1" max="83">
+            <button onclick="fetchCharacter()">Buscar</button>
+        </div>
+        <div id="character-info" class="character-info">
+            <!-- Información del personaje se mostrará aquí -->
+        </div>
+        <div id="character-image" class="character-image">
+            <!-- Imagen del personaje se mostrará aquí -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script_sw.js"></script>
+</body>
+</html>
