@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(to right, #ffe75f, #feb47b);
+    margin: 0; /* Eliminar margen predeterminado del body */
+}
+
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 0 20px 20px; /* Redondear solo las esquinas inferiores */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del div */
+    position: fixed; /* Fijar la barra de navegación en la parte superior */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Asegurar que la barra de navegación esté por encima de otros elementos */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Añadir padding para los extremos laterales */
+}
+
+.horizontal-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.horizontal-list li {
+    margin: 0 10px;
+}
+
+.horizontal-list a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    padding: 15px 20px; /* Añadir padding para hacer los enlaces más grandes */
+    display: block; /* Hacer que los enlaces ocupen todo el espacio del li */
+}
+
+.horizontal-list a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.container-h1{
+    margin-bottom: 20px;
+}
+
+.main{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin: 80px auto 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul{
+    list-style-type: initial;
+}
+
+.my-languages {
+    font-family: 'Arial', solid, sans-serif; /* Fuente para la lista de lenguajes principales */
+}
+
+.frameworks-python {
+    font-family: 'Arial', sans-serif; /* Fuente para los frameworks de Python */
+}
+
+.frameworks-js {
+    font-family: 'Arial', sans-serif; /* Fuente para los frameworks de JavaScript */
+}
+
+.other-languages {
+    font-family: 'Arial', sans-serif; /* Fuente para otras tecnologías */
+}
+
+.imagen {
+    width: 250px; /* Ajusta el tamaño según sea necesario */
+    height: 250px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%; /* Hace que el div sea circular */
+    overflow: hidden; /* Asegura que la imagen no se salga del div */
+    float: right; /* Alinear el div a la derecha */
+    margin: 20px; /* Añadir margen para separar la imagen del contenido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5
+    );
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el div sin distorsionarse */
+}
+.most-used-language{
+    font-size:20px;
+    text-decoration:underline;
+}
+
+.text{
+    margin-left: 15px;
+}
+
+.container{
+    background-color: #ffffff; /* Color de fondo del div */
+    border: 1px solid #ccc; /* Borde del div */
+    padding: 20px; /* Espaciado interno */
+    margin: 80px auto 20px; /* Añadir margen superior para evitar que el contenido quede oculto detrás de la barra de navegación */
+    max-width: 800px; /* Ancho máximo del div */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del div */
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    border-radius: 10px;
+}
+
+.s2{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
