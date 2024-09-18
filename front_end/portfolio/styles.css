@@ -63,22 +63,83 @@ body {
 }
 
 .proyectos{
+    display: flex;
+    flex-wrap: nowrap; /* No permite que los elementos se envuelvan */
+    justify-content: space-around; /* Distribuye los elementos de manera uniforme */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
     margin: 80px auto 20px;
     margin-top:30px;
     margin-left: 30px;
 }
 
-.proyectos img{
+.proyecto-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.conversor{
     align-items: left;
     width: 150px;
     height: 115px;
     transition: .5s ease;
 }
 
-.proyectos img:hover{
+.conversor:hover{
     cursor: crosshair;
     width: 170px;
     height: 150px;
+    opacity: 1;
+    filter:contrast(120%)
+}
+
+.sw{
+    align-items: left;
+    width: 150px;
+    height: 205px;
+    transition: .5s ease;
+}
+
+.sw:hover{
+    cursor: crosshair;
+    width: 170px;
+    height: 255px;
+    opacity: 1;
+    filter:contrast(120%)
+}
+
+.proyectos h4 {
+    margin: 10px; /* Añade margen alrededor de los encabezados */
+    text-align: center;
+}
+
+.conversor{
+    align-items: left;
+    width: 150px;
+    height: 115px;
+    transition: .5s ease;
+}
+
+.conversor:hover{
+    cursor: crosshair;
+    width: 170px;
+    height: 150px;
+    opacity: 1;
+    filter:contrast(120%)
+}
+
+.sw{
+    align-items: left;
+    width: 150px;
+    height: 205px;
+    transition: .5s ease;
+}
+
+.sw:hover{
+    cursor: crosshair;
+    width: 170px;
+    height: 255px;
     opacity: 1;
     filter:contrast(120%)
 }
@@ -119,6 +180,16 @@ ul{
     height: 100%;
     object-fit: cover; /* Asegura que la imagen cubra todo el div sin distorsionarse */
 }
+
+.texto-proyectos{
+    margin-left: 15px;
+}
+
+.proyectos h4 {
+    margin: 10px; /* Añade margen alrededor de los encabezados */
+    text-align: center;
+}
+
 .most-used-language{
     font-size:20px;
     text-decoration:underline;
