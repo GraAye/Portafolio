@@ -10,7 +10,7 @@ function addRedirect(elementId, url) {
 addRedirect('home', 'index.html');
 addRedirect('about', 'about.html');
 addRedirect('services', 'services.html');
-addRedirect('contact', 'https://example.com/contact');
+addRedirect('contact', 'contact.html');
 
 function handleClick(platform) {
     switch(platform) {
