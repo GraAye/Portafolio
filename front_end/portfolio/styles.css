@@ -175,10 +175,68 @@ ul{
     );
 }
 
+#img-asesorias {
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Hace que las esquinas sean redondeadas */
+    overflow: hidden; /* Asegura que la imagen no se salga del div */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Añadir sombra a la imagen */
+}
+
+#fb {
+    width: 70px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Hace que las esquinas sean redondeadas */
+    overflow: hidden; /* Asegura que la imagen no se salga del div */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Añadir sombra a la imagen */
+}
+
+#tw {
+    width: 70px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Hace que las esquinas sean redondeadas */
+    overflow: hidden; /* Asegura que la imagen no se salga del div */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Añadir sombra a la imagen */
+}
+
+#wapp {
+    width: 70px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Hace que las esquinas sean redondeadas */
+    overflow: hidden; /* Asegura que la imagen no se salga del div */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Añadir sombra a la imagen */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
 .imagen img {
     width: 100%;
-    height: 100%;
+    height: 70%;
+    padding-left: 27px;
+    padding-top: 37px;
     object-fit: cover; /* Asegura que la imagen cubra todo el div sin distorsionarse */
+}
+
+#cv {
+    width: 500px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Hace que las esquinas sean redondeadas */
+    overflow: hidden; /* Asegura que la imagen no se salga del div */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Añadir sombra a la imagen */
 }
 
 .texto-proyectos{
